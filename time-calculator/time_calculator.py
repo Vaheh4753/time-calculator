@@ -46,7 +46,7 @@ def add_time(start, duration, starting_day=''):
         am_or_pm_end = 'AM'
     end_day = ''
     
-    # day_key is the value for the ending day
+    # finding end_day, the day for output
     if starting_day != '':
         for key, value in days.items():
             if value == (days[starting_day] + days_elapsed) % 7:
