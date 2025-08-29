@@ -1,1 +1,1 @@
-# time-calculator
+# Time calculator project which accepts start time and end time in digital clock format (12:00). Start day can be provided as well. Will output end time, end day(if start day given), and days elapsed.
